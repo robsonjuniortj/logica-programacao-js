@@ -1,31 +1,32 @@
+// Importa prompt-sync para entrada de dados no terminal
 const prompt = require('prompt-sync')();
 
-// Exemplo 1: Verificando se a pessoa é maior de idade
-let idade = parseInt(prompt("Digite sua idade: "));
+// Recebe a nota do aluno
+let nota = parseFloat(prompt("Digite a nota do aluno (0 a 10): "));
 
-if (idade >= 18) {
-  console.log("Você é maior de idade.");
+// Verifica se a nota é válida
+if (nota < 0 || nota > 10) {
+  console.log("Nota inválida. Digite um valor entre 0 e 10.");
 } else {
-  console.log("Você é menor de idade.");
+  // Verifica a situação do aluno
+  if (nota >= 7) {
+    console.log("Aluno Aprovado! 🎉");
+  } else if (nota >= 5) {
+    console.log("Aluno em Recuperação. 🟡");
+  } else {
+    console.log("Aluno Reprovado. ❌");
+  }
 }
 
-// Exemplo 2: Verificando nota do aluno
-let nota = parseFloat(prompt("Digite sua nota final: "));
+// MISSÃO PRÁTICA DO DIA - Validação de Idade para Entrada
 
-if (nota >= 7) {
-  console.log("Aprovado!");
-} else if (nota >= 5) {
-  console.log("Recuperação.");
+let idade = parseInt(prompt("\nDigite sua idade: "));
+
+// Verifica a idade e exibe a mensagem correspondente
+if (idade < 18) {
+  console.log("Entrada Proibida! 🚫");
+} else if (idade <= 60) {
+  console.log("Entrada Liberada! 🎫");
 } else {
-  console.log("Reprovado.");
-}
-
-// Exemplo 3: Login básico
-let usuario = prompt("Digite o nome de usuário: ");
-let senha = prompt("Digite a senha: ");
-
-if (usuario === "admin" && senha === "1234") {
-  console.log("Acesso permitido.");
-} else {
-  console.log("Usuário ou senha incorretos.");
+  console.log("Entrada Liberada com prioridade! 👴🪪");
 }
