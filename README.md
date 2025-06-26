@@ -14,20 +14,25 @@ Este repositório é um diário de aprendizado em programação, contendo aulas 
 ---
 
 ### 📌 Dia 2 – Condicionais (if/else)
-**Arquivo:** `dia2-condicionais/condicoes-dia2.js`  
+**Arquivos:**
+- `dia2-condicionais/condicoes-dia2.js` – Aula com validação de notas
+- `dia2-condicionais/validacao-idade-balada.js` – Missão prática: entrada em balada
+
 **Conteúdo:**
 - Estrutura de decisão `if`, `else if`, `else`
-- Operadores de comparação
-- Missão prática: Validação de idade para entrada em balada
+- Operadores de comparação e lógicos
 
 ---
 
 ### 📌 Dia 3 – Laços de Repetição (for, while)
-**Arquivo:** `dia3-lacos-de-repeticao/lacos-dia3.js`  
+**Arquivos:**
+- `dia3-lacos-de-repeticao/lacos-dia3.js` – Aula com exemplos de `for` e `while`
+- `dia3-lacos-de-repeticao/desafio-nomes-e-soma.js` – Missão prática
+
 **Conteúdo:**
-- Laços `for` e `while`
-- Controle com `break` e `continue`
-- Missão prática: Coletar nomes e somar números até digitar 0
+- Repetição com `for` e `while`
+- Controle de fluxo com `break` e `continue`
+- Coletar nomes e somar números até digitar 0
 
 ---
 
