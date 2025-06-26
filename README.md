@@ -27,3 +27,18 @@
   - Menores de 18 → "Entrada Proibida"
   - 18 a 60 → "Entrada Liberada"
   - Acima de 60 → "Entrada Liberada com prioridade"
+
+---
+
+## Aula 3 – Laços de Repetição (`for`, `while`)
+**Aprendizados:**
+- Estrutura de repetição com `for` e `while`
+- Controle de fluxo com `break` e `continue`
+- Coleta de dados repetida
+
+**Arquivo:** `lacos-dia3.js`
+
+**Missão Prática:**
+1. Pedir 5 nomes e mostrar todos no final
+2. Somar números digitados até o usuário digitar 0
+
