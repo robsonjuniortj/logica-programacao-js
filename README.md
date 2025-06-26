@@ -1,44 +1,40 @@
-# Semana 1 – Lógica de Programação com JavaScript
+# Aprendizado em Programação do Zero 🚀
 
-## Aula 1 – Variáveis e Entrada/Saída
-**Aprendizados:**
+Este repositório é um diário de aprendizado em programação, contendo aulas organizadas por temas, com exercícios práticos resolvidos, explicações em comentários e foco total no desenvolvimento full stack.
+
+## ✅ Progresso
+
+### 📌 Dia 1 – Variáveis e Entrada/Saída
+**Arquivo:** `dia1-variaveis-e-entrada/logica-dia1.js`  
+**Conteúdo:**
 - Uso de variáveis (`let`, `const`)
-- Entrada de dados no terminal com `prompt-sync`
-- Tipos primitivos: string, number
-- Saída com `console.log()`
-
-**Arquivo:** `logica-dia1.js`
-
-**Missão Prática:**
-- Criar um script que coleta nome, idade, cidade, profissão e altura e mostra tudo em uma frase formatada.
+- Entrada e saída no terminal com `prompt-sync`
+- Tipos primitivos (string, number, boolean)
 
 ---
 
-## Aula 2 – Condicionais (`if`, `else if`, `else`)
-**Aprendizados:**
-- Estruturas de decisão
-- Operadores de comparação e lógicos
-- Validação de dados com condicionais aninhadas
-
-**Arquivo:** `condicoes-dia2.js`
-
-**Missão Prática:**
-- Criar um sistema de entrada em balada com base na idade:
-  - Menores de 18 → "Entrada Proibida"
-  - 18 a 60 → "Entrada Liberada"
-  - Acima de 60 → "Entrada Liberada com prioridade"
+### 📌 Dia 2 – Condicionais (if/else)
+**Arquivo:** `dia2-condicionais/condicoes-dia2.js`  
+**Conteúdo:**
+- Estrutura de decisão `if`, `else if`, `else`
+- Operadores de comparação
+- Missão prática: Validação de idade para entrada em balada
 
 ---
 
-## Aula 3 – Laços de Repetição (`for`, `while`)
-**Aprendizados:**
-- Estrutura de repetição com `for` e `while`
-- Controle de fluxo com `break` e `continue`
-- Coleta de dados repetida
+### 📌 Dia 3 – Laços de Repetição (for, while)
+**Arquivo:** `dia3-lacos-de-repeticao/lacos-dia3.js`  
+**Conteúdo:**
+- Laços `for` e `while`
+- Controle com `break` e `continue`
+- Missão prática: Coletar nomes e somar números até digitar 0
 
-**Arquivo:** `lacos-dia3.js`
+---
 
-**Missão Prática:**
-1. Pedir 5 nomes e mostrar todos no final
-2. Somar números digitados até o usuário digitar 0
+## 💡 Como executar os códigos
+
+1. Instale as dependências (na raiz):
+   ```bash
+   npm install
+
 
