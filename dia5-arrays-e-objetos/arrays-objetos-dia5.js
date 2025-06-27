@@ -19,7 +19,7 @@ console.log(`\nAluno: ${aluno.nome}, ${aluno.idade} anos, curso: ${aluno.curso}`
 let pessoas = [
   { nome: "Ana", idade: 20 },
   { nome: "João", idade: 25 },
-  { nome: "Luiza", idade: 30 }
+  { nome: "Luíza", idade: 30 }
 ];
 
 console.log("\nLista de pessoas:");
