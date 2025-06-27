@@ -52,6 +52,20 @@ Este repositório é um diário de aprendizado em programação, contendo aulas 
   - Obesidade grau 2 (35.0 a 39.9)
   - Obesidade grau 3 (≥ 40.0)
 
+---
+
+### 📌 Dia 5 – Arrays e Objetos
+**Arquivos:**
+- `dia5-arrays-e-objetos/arrays-objetos-dia5.js` – Aula com exemplos de arrays e objetos
+- `dia5-arrays-e-objetos/carrinho-produtos.js` – Missão prática do dia
+
+**Conteúdo:**
+- Arrays: criação, acesso e iteração
+- Objetos com propriedades
+- Array de objetos
+- Cadastro e soma de produtos estilo “carrinho de compras”
+
+
 ## 💡 Como executar os códigos
 
 1. Instale as dependências (na raiz):
