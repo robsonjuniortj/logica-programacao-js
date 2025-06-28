@@ -81,6 +81,16 @@ Este repositório é um diário de aprendizado em programação, contendo aulas 
   - Botão de contato visual
   - Link para o GitHub no rodapé
 
+---
+
+### ✅ Missão prática do Dia 7 – Validação com idade
+**Arquivo:**
+- `dia7-dom-eventos/formulario-com-idade.js`
+
+**Descrição:**
+- Validação extra: idade mínima de 18 anos para envio do formulário
+- Exibição de mensagens de erro ou sucesso de forma dinâmica
+
 
 
 ## 💡 Como executar os códigos

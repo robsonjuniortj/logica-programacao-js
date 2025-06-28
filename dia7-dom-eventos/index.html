@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Interação com JavaScript</title>
+  <script defer src="interacao-dom.js"></script>
+  <script defer src="formulario-com-idade.js"></script>
+
+  <style>
+    body {
+      font-family: Arial;
+      padding: 20px;
+    }
+    input, textarea {
+      display: block;
+      margin-bottom: 10px;
+      width: 300px;
+      padding: 8px;
+    }
+    button {
+      padding: 10px 20px;
+      background: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .resposta {
+      margin-top: 20px;
+      font-weight: bold;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <h1>Formulário de Contato</h1>
+
+  <label>Nome:</label>
+  <input type="text" id="nome" placeholder="Digite seu nome">
+
+  <label>Idade:</label>
+  <input type="number" id="idade" placeholder="Digite sua idade">
+
+
+  <label>Mensagem:</label>
+  <textarea id="mensagem" placeholder="Digite sua mensagem"></textarea>
+
+  <button id="enviar">Enviar</button>
+
+  <div class="resposta" id="resposta"></div>
+</body>
+</html>
