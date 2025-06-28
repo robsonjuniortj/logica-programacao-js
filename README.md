@@ -65,6 +65,19 @@ Este repositório é um diário de aprendizado em programação, contendo aulas 
 - Array de objetos
 - Cadastro e soma de produtos estilo “carrinho de compras”
 
+---
+
+### 📌 Dia 6 – HTML e CSS: Página Pessoal
+**Arquivos:**
+- `dia6-html-css/index.html`
+- `dia6-html-css/style.css`
+
+**Conteúdo:**
+- Estrutura semântica HTML
+- Estilização com CSS
+- Página pessoal com seções de "Sobre", "Habilidades" e "Contato"
+- Missão prática: incluir foto, botão e link para GitHub
+
 
 ## 💡 Como executar os códigos
 
