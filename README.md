@@ -73,10 +73,14 @@ Este repositório é um diário de aprendizado em programação, contendo aulas 
 - `dia6-html-css/style.css`
 
 **Conteúdo:**
-- Estrutura semântica HTML
-- Estilização com CSS
-- Página pessoal com seções de "Sobre", "Habilidades" e "Contato"
-- Missão prática: incluir foto, botão e link para GitHub
+- Estrutura semântica do HTML
+- Estilização com CSS externo
+- Página pessoal com:
+  - Nome, título e habilidades
+  - Foto de perfil (estilizada)
+  - Botão de contato visual
+  - Link para o GitHub no rodapé
+
 
 
 ## 💡 Como executar os códigos
