@@ -1,0 +1,27 @@
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.relogio {
+  text-align: center;
+  background-color: #222;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00f;
+}
+
+#horario {
+  font-size: 4em;
+  margin: 20px 0;
+}
+
+#dataAtual {
+  font-size: 1.2em;
+  color: #ccc;
+}

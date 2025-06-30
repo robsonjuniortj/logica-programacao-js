@@ -113,6 +113,20 @@ Cada dia traz um novo tema com arquivos organizados por pasta, todos prontos par
 - Remoção de tarefa com botão
 - Estilização e interatividade usando DOM puro
 
+---
+
+### 📌 Dia 9 – Relógio Digital com Data em Tempo Real
+**Arquivos:**
+- `dia9-relogio-digital/index.html`
+- `dia9-relogio-digital/style.css`
+- `dia9-relogio-digital/script.js`
+
+**Conteúdo:**
+- Captura e exibição da hora atual com `Date`
+- Atualização em tempo real com `setInterval`
+- Formatação de hora, minuto, segundo e data
+- Estilo visual com destaque em tempo
+
 
 
 ## 💡 Como executar os códigos
