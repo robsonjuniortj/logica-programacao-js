@@ -99,6 +99,20 @@ Cada dia traz um novo tema com arquivos organizados por pasta, todos prontos par
 - Validação de campos e exibição de mensagens
 - Validação com idade mínima de 18 anos
 
+---
+
+### 📌 Dia 8 – Projeto: Lista de Tarefas (To-Do List)
+**Arquivos:**
+- `dia8-todo-list/index.html`
+- `dia8-todo-list/style.css`
+- `dia8-todo-list/script.js`
+
+**Conteúdo:**
+- Criação de tarefas com input
+- Marcar tarefa como concluída (riscar texto)
+- Remoção de tarefa com botão
+- Estilização e interatividade usando DOM puro
+
 
 
 ## 💡 Como executar os códigos
